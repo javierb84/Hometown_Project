@@ -1,0 +1,86 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(160, 232, 208);
+}
+
+img {
+    width: 100px;
+}
+
+#destination {
+    background-image: url("images/MexicoCity.jpg");
+    background-size: cover;
+    height: 300px;
+    padding: 50px;
+    margin: 10px 10px 15px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 40%;
+    border: 6px #ef7575 solid;
+}
+
+.avatar:hover {
+    border: 6px lightgreen solid;;
+}
+
+.card {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: linear-gradient(#66e45a, #fff, #ca1111);
+    color: #2c1402;
+    border-bottom: 6px solid #9591a7;
+    border-radius: 16%;
+    text-shadow: 0 0 10px black;
+}
+
+.spot-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid #e90e06;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 5px rgb(8, 104, 48);
+}
+
+#locations {
+    display: flex;
+}
+
+#spot-title {
+    margin: 30px auto;
+}
+
+.spots {
+    margin: 10px 40px;
+    justify-content: space-evenly;
+    font-size: small;
+}
+
+.titles {
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.474), rgb(235, 209, 209), rgba(255, 0, 0, 0.523));
+    margin: 10px auto;
+    padding: 5px 10px;
+    color: white;
+    text-shadow: 0 5px 10px brown;
+}
